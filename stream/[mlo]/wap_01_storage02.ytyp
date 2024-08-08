@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+  <Item type="CBaseArchetypeDef">
+    <guid value="0"/>
+    <lodDist value="147.00000000"/>
+    <flags value="0" />
+    <loadFlags value="0" />
+    <specialAttribute value="0" />
+<bbMin x="-3.5229492" y="-3.3955078" z="-3.2236328"/>
+<bbMax x="3.5229492" y="3.3955078" z="3.2236328"/>
+<bsCentre x="0.0" y="0.0" z="0.0"/>
+<bsRadius value="5.8593903"/>
+    <hdTextureDist value="83.8283" />
+    <name>wap_01_storage02</name>
+    <textureDictionary>wap_01_storage02</textureDictionary>
+    <clipDictionary />
+    <drawableDictionary />
+    <physicsDictionary>wap_01_storage02</physicsDictionary>
+    <assetType>ASSET_TYPE_DRAWABLE</assetType>
+    <assetName>wap_01_storage02</assetName>
+    <extensions />
+    <redm_loves_you_a68fd88a5afa0b22>0xAD1EED63</redm_loves_you_a68fd88a5afa0b22>
+  </Item>
+  <Item type="CBaseArchetypeDef">
+    <guid value="0"/>
+    <lodDist value="147.00000000"/>
+    <flags value="0" />
+    <loadFlags value="0" />
+    <specialAttribute value="0" />
+<bbMin x="-3.5229492" y="-3.3955078" z="-3.2236328"/>
+<bbMax x="3.5229492" y="3.3955078" z="3.2236328"/>
+<bsCentre x="0.0" y="0.0" z="0.0"/>
+<bsRadius value="5.8593903"/>
+    <hdTextureDist value="83.8283" />
+    <name>wap_01_storage02_shell</name>
+    <textureDictionary>wap_01_storage02</textureDictionary>
+    <clipDictionary />
+    <drawableDictionary />
+    <physicsDictionary />
+    <assetType>ASSET_TYPE_DRAWABLE</assetType>
+    <assetName>wap_01_storage02_shell</assetName>
+    <extensions />
+    <redm_loves_you_a68fd88a5afa0b22>0xAD1EED63</redm_loves_you_a68fd88a5afa0b22>
+  </Item>
+  <Item type="CMloArchetypeDef">
+      <lodDist value="109.501" />
+      <flags value="0" />
+	    <loadFlags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0" y="0" z="0" />
+      <bbMax x="0" y="0" z="0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0" />
+      <hdTextureDist value="5.00000000"/>
+      <name>wap_01_storage02_col</name>
+      <textureDictionary/>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>wap_01_storage02_col</physicsDictionary>
+      <assetType>ASSET_TYPE_ASSETLESS</assetType>
+      <assetName/>
+      <extensions />
+	    <mloFlags value="0"/>
+      <entities>
+	    	<Item type="CEntityDef">
+          <archetypeName>wap_01_storage02_shell</archetypeName>
+          <flags value="1572864"/>
+          <position x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <rotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <scaleXY value="1.00000000"/>
+          <scaleZ value="1.00000000"/>
+          <parentIndex value="-1"/>
+          <lodDist value="-1.00000000"/>
+          <childLodDist value="0.00000000"/>
+          <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+          <numChildren value="0"/>
+          <powerGridId value="0"/>
+          <priorityLevel>PRI_REQUIRED</priorityLevel>
+          <extensions/>
+          <tintValue value="0" />
+          <redm_loves_you_2158e9a42f04a7dc value="255" />
+          <redm_loves_you_7dd29b0dd179bea5 value="255" />
+        </Item>
+	    </entities>
+      <rooms>
+        <Item>
+          <name>limbo</name>
+<bbMin x="-2.9179688" y="-2.8857422" z="-1.9750977"/>
+<bbMax x="2.8362021" y="2.862793" z="0.46304035"/>
+          <blend value="1.00000000"/>
+          <timecycleName/>
+          <secondaryTimecycleName/>
+          <flags value="32"/>
+          <portalCount value="5"/>
+          <floorId value="0"/>
+          <exteriorVisibiltyDepth value="-1"/>
+          <attachedObjects content="int_array">0</attachedObjects>
+          <redm_loves_you_bea305dc5335a8ff />
+        </Item>
+	    	<Item>
+          <name>main</name>
+<bbMin x="-2.9179688" y="-2.8857422" z="-1.9750977"/>
+<bbMax x="2.8362021" y="2.862793" z="0.46304035"/>
+          <blend value="1.00000000"/>
+          <timecycleName>int_extlight_none_dark_fog_clone</timecycleName>
+          <secondaryTimecycleName/>
+          <flags value="32"/>
+          <portalCount value="5"/>
+          <floorId value="0"/>
+          <exteriorVisibiltyDepth value="-1"/>
+          <attachedObjects content="int_array">
+          </attachedObjects>
+        </Item>
+	  </rooms>
+	  <portals>
+        <Item>
+          <roomFrom value="1"/>
+          <roomTo value="0"/>
+          <flags value="0"/>
+          <mirrorPriority value="0"/>
+          <opacity value="0"/>
+          <redm_loves_you_b5c65d165ac2a96a value="1.00000000"/>
+          <redm_loves_you_77f55279e5bd37e2 value="1.00000000"/>
+          <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000"/>
+          <redm_loves_you_e8f083f1ebc039d7 value="1.00000000"/>
+          <audioOcclusion value="0"/>
+          <corners content="vector3_array">
+-1.03 2.06 -1.90
+ -1.03 2.07 0.16 
+ -0.13 2.31 0.16
+ -0.13 2.30 -1.91
+          </corners>
+          <attachedObjects content="int_array">
+          </attachedObjects>
+        </Item>
+		        <Item>
+          <roomFrom value="1"/>
+          <roomTo value="0"/>
+          <flags value="0"/>
+          <mirrorPriority value="0"/>
+          <opacity value="0"/>
+          <redm_loves_you_b5c65d165ac2a96a value="1.00000000"/>
+          <redm_loves_you_77f55279e5bd37e2 value="1.00000000"/>
+          <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000"/>
+          <redm_loves_you_e8f083f1ebc039d7 value="1.00000000"/>
+          <audioOcclusion value="0"/>
+          <corners content="vector3_array">
+-1.1489258 2.0639648 0.69628906
+ -1.1489258 2.0639648 1.3007812 
+ -0.044433594 2.3598633 1.3007812 
+ -0.044433594 2.3598633 0.69628906
+          </corners>
+          <attachedObjects content="int_array">
+          </attachedObjects>
+        </Item>
+				        <Item>
+          <roomFrom value="1"/>
+          <roomTo value="0"/>
+          <flags value="0"/>
+          <mirrorPriority value="0"/>
+          <opacity value="0"/>
+          <redm_loves_you_b5c65d165ac2a96a value="1.00000000"/>
+          <redm_loves_you_77f55279e5bd37e2 value="1.00000000"/>
+          <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000"/>
+          <redm_loves_you_e8f083f1ebc039d7 value="1.00000000"/>
+          <audioOcclusion value="0"/>
+          <corners content="vector3_array">
+ -2.2148438 -1.0229492 -1.6240234
+ -2.2148438 -1.0234375 -0.05419922 
+ -2.4199219 -0.2836914 -0.05419922 
+ -2.4199219 -0.2836914 -1.6240234
+          </corners>
+          <attachedObjects content="int_array">
+          </attachedObjects>
+        </Item>
+						        <Item>
+          <roomFrom value="1"/>
+          <roomTo value="0"/>
+          <flags value="0"/>
+          <mirrorPriority value="0"/>
+          <opacity value="0"/>
+          <redm_loves_you_b5c65d165ac2a96a value="1.00000000"/>
+          <redm_loves_you_77f55279e5bd37e2 value="1.00000000"/>
+          <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000"/>
+          <redm_loves_you_e8f083f1ebc039d7 value="1.00000000"/>
+          <audioOcclusion value="0"/>
+          <corners content="vector3_array">
+1.1396484 -2.1376953 0.69628906 
+1.1396484 -2.1376953 1.3007812 
+0.03466797 -2.434082 1.3007812
+ 0.03466797 -2.434082 0.69628906
+          </corners>
+          <attachedObjects content="int_array">
+          </attachedObjects>
+        </Item>
+	<Item>
+          <roomFrom value="1"/>
+          <roomTo value="0"/>
+          <flags value="0"/>
+          <mirrorPriority value="0"/>
+          <opacity value="0"/>
+          <redm_loves_you_b5c65d165ac2a96a value="1.00000000"/>
+          <redm_loves_you_77f55279e5bd37e2 value="1.00000000"/>
+          <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000"/>
+          <redm_loves_you_e8f083f1ebc039d7 value="1.00000000"/>
+          <audioOcclusion value="0"/>
+          <corners content="vector3_array">
+2.119629 0.94384766 -1.6240234
+ 2.119629 0.94384766 -0.05419922
+ 2.3442383 0.20947266 -0.05419922 
+ 2.3442383 0.20947266 -1.6240234
+          </corners>
+          <attachedObjects content="int_array">
+          </attachedObjects>
+        </Item>
+	  </portals>
+	  <entitySets/>
+	  <timeCycleModifiers/>
+	  <redm_loves_you_a1eeea498c70af98/>
+      <redm_loves_you_4f772a6e01dcf2fd/>
+      <redm_loves_you_19e1250a833f3e04>
+        <redm_loves_you_4b0e6c8bf963c46b>
+          <centerAndRadius x="0.00000000" y="0.00000000" z="0.00000000" w="0.00000000"/>
+        </redm_loves_you_4b0e6c8bf963c46b>
+        <flags/>
+      </redm_loves_you_19e1250a833f3e04>
+      <redm_loves_you_525e3103a5fdd7ca value="false"/>
+    </Item>	
+ </archetypes>
+ <name>wap_01_storage02</name>
+ <dependencies />
+ <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

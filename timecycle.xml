@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timecycle_modifier_data version="3.000000">
+      <modifier name="int_extlight_none_dark_fog_clone" description="" numMods="11" userFlags="0">
+        <light_artificial_int_down_col_r>0.541 0.541</light_artificial_int_down_col_r>
+        <light_artificial_int_down_col_g>0.655 1.000</light_artificial_int_down_col_g>
+        <light_artificial_int_down_col_b>0.894 1.000</light_artificial_int_down_col_b>
+        <light_artificial_int_down_intensity>0.300 0.000</light_artificial_int_down_intensity>
+        <light_artificial_int_up_col_r>0.839 1.000</light_artificial_int_up_col_r>
+        <light_artificial_int_up_col_g>0.859 1.000</light_artificial_int_up_col_g>
+        <light_artificial_int_up_col_b>0.875 1.000</light_artificial_int_up_col_b>
+        <light_artificial_int_up_intensity>0.440 1.000</light_artificial_int_up_intensity>
+        <postfx_intensity_bloom>0.000 0.000</postfx_intensity_bloom>
+        <fog_start>15.000 5500.000</fog_start>
+        <far_clip>200.000 200.000</far_clip>
+    </modifier>
+</timecycle_modifier_data>
