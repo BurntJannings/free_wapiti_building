@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPackFileMetaData>
+ <MapDataGroups />
+ <HDTxdBindingArray />
+ <imapDependencies />
+ <imapDependencies_2>
+  <Item>
+      <imapName>wapmlo</imapName>
+   <manifestFlags>INTERIOR_DATA</manifestFlags>
+   <itypDepArray>
+		<Item>wap_mlo</Item>
+		<Item>wap_doors</Item>
+   </itypDepArray>
+  </Item>
+ </imapDependencies_2>
+ <itypDependencies_2 />
+ <Interiors>
+  <Item>
+   <Name>wap_mlo_col</Name>
+   <Bounds>
+    <Item>wap_mlo_col</Item>
+   </Bounds>
+  </Item>
+ </Interiors>
+ <redm_loves_you_7cc2afb2d40476ed />
+ <redm_loves_you_c1fa8cdfbc6c9972 />
+ <txdRelationships />
+ <imapAliases />
+ <assetOwnerMap />
+</CPackFileMetaData>
