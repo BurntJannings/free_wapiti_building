@@ -4,11 +4,4 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 this_is_a_map 'yes'
 lua54 'yes'
 
-client_scripts {
-    'client.lua'
-}
-
-files {'timecycle.xml'}
-
-
 data_file "TIMECYCLEMOD_FILE" "timecycle.xml"
